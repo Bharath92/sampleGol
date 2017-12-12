@@ -12,4 +12,7 @@ build:
     image_tag: master
     pull: true
   ci:
-    - ls
+    - |
+      echo lol
+      sl
+      echo hi
