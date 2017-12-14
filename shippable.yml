@@ -14,4 +14,4 @@ build:
   ci:
     - export x=1
   on_success:
-    - echo $x
+    - sl
