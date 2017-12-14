@@ -10,9 +10,8 @@ build:
   pre_ci_boot:
     image_name: drydock/u16golall
     image_tag: master
-    pull: true
+    pull: false
   ci:
-    - |
-      echo lol
-      sl
-      echo hi
+    - export x=1
+  on_success:
+    - echo $x
